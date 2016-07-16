@@ -6,8 +6,8 @@ class Solution(object):
         """
         lenth = len(s)
         number = 1
-        reversed_string = ""
+        reversed_string = []
         while number <= lenth:
-            reversed_string += s[-number]
+            reversed_string.append(s[-number])
             number += 1
-        return reversed_string
+        return ''.join(reversed_string)
