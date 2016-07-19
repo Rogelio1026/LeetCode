@@ -31,28 +31,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single_number_3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single_number_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interaction_of_2_Arrarys.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interaction_of_2_Arrarys.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Move_Zeros.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Move_Zeros.py">
+      <file leaf-file-name="Interaction_of_2_Arrarys_2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Interaction_of_2_Arrarys_2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -83,6 +63,8 @@
         <option value="$PROJECT_DIR$/single_number_3.py" />
         <option value="$PROJECT_DIR$/Interaction_of_2_Arrarys.py" />
         <option value="$PROJECT_DIR$/Move_Zeros.py" />
+        <option value="$PROJECT_DIR$/Interaction_of_2_arrarys_2.py" />
+        <option value="$PROJECT_DIR$/Interaction_of_2_Arrarys_2.py" />
       </list>
     </option>
   </component>
@@ -381,10 +363,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nim_Game.py">
+    <entry file="file://$PROJECT_DIR$/Move_Zeros.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interaction_of_2_Arrarys.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -397,15 +387,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interaction_of_2_Arrarys.py">
+    <entry file="file://$PROJECT_DIR$/Nim_Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Move_Zeros.py">
+    <entry file="file://$PROJECT_DIR$/Interaction_of_2_Arrarys_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
