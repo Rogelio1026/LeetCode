@@ -10,3 +10,11 @@ class Solution(object):
             if i in nums2 and i not in list_1:
                 list_1.append(i)
         return list_1
+        # time complexity
+        # O(1)
+        # O(n):
+        #     O(n) and O(n):
+        #         O(1)
+        # =O(n**2)
+        # space complexity
+        # O(n)
