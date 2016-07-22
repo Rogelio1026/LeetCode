@@ -5,6 +5,11 @@ class Solution(object):
         :type b: int
         :rtype: int
         """
-        list = [a,b]
-        answer = sum(list)
-        return answer
+        if abs(a) == abs(b) and a * b <= 0:
+            return 0
+        else:
+            while (a & b) != 0:
+                c = (a & b) << 1
+                b = a ^ b
+                a = c
+            return a | b
