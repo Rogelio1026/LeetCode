@@ -12,3 +12,5 @@ class Solution(object):
             else:
                 if nums[i] != nums[i+1]:
                     return nums[i]
+        # time - O(n)
+        # space - O(1)
