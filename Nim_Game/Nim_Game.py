@@ -8,3 +8,5 @@ class Solution(object):
             return False
         else:
             return True
+        # time - O(1)
+        # space - O(1)
