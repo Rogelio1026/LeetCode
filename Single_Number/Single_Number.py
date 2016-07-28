@@ -4,13 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        nums.sort()
-        l = len(nums)
-        for i in range(0,l,2):
-            if i+1 >= l:
-                return nums[i]
+        dict={}
+        for n in nums:
+            if n not in dict:
+                dict[n]=1
             else:
-                if nums[i] != nums[i+1]:
-                    return nums[i]
+                dict[n]=2
+        for n in dict:
+            if dict[n] == 1:
+                return n
         # time - O(n)
-        # space - O(1)
+        # space - O(n)
