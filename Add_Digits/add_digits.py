@@ -4,15 +4,11 @@ class Solution(object):
         :type num: int
         :rtype: int
         """
-        a = num
-        list_1 = []
-        while num > 9:
-            num_str = str(num)
-            list_1 = list(num_str)
-            list_2 = []
-            for i in list_1:
-                i = int(i)
-                list_2.append(i)
-            a = sum(list_2)
-            num = a
-        return a
+        if num==0:
+            return 0
+        elif num%9==0:
+            return 9
+        else:
+            return num%9
+        # time - O(1)
+        # space - O(1)
