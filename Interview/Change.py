@@ -17,5 +17,6 @@ if __name__ == '__main__':
     assert (change(222) == [2, 0, 2, 0, 1, 0])
     assert (change(58) == [0, 1, 0, 1, 1, 1])
     assert (change(-157) == 'wrong number')
+
     assert (change(157.5) == change(158))
     assert (change(qwe) == 'wrong number')
