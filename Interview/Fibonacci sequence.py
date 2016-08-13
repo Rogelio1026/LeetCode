@@ -12,7 +12,16 @@ def Fibonacci_sequence(number):
         c = a + b
         a = b
         b = c
-    return list_1
+    if number > 1:
+        return list_1
+    elif number == 1:
+        return [1]
+    else:
+        return 'Wrong number'
 
 if __name__ == '__main__':
-    print(Fibonacci_sequence(3))
+    assert (Fibonacci_sequence(1) == [1])
+    assert (Fibonacci_sequence(2) == [1,1])
+    assert (Fibonacci_sequence(3) == [1,1,2])
+    assert (Fibonacci_sequence(5) == [1,1,2,3,5])
+    assert (Fibonacci_sequence(0) == 'Wrong number')
