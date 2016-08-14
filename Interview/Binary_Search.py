@@ -19,5 +19,8 @@ def Binary_search(number,list_1):
         return i + Binary_search(number,list_1[:mid])
 
 if __name__ == '__main__':
-    print(Binary_search(9,(1,3,5,7,9)))
-    assert(Binary_search(5,(1,3,7))==1)
+    assert (Binary_search(5, (1, 3, 7)) == 1)
+    assert (Binary_search(1, (1, 3, 7)) == 0)
+    assert (Binary_search(7, (1, 3, 7)) == 2)
+    assert (Binary_search(8, (1, 3, 7)) == 2)
+    assert (Binary_search(0, (1, 3, 7)) == -1)
